@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Lewis | GIS Analyst & Geologist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Whats up guys whats good.</h2>
+
+    <nav>
+        <button onclick="showPage('resume')">Resume</button>
+        <button onclick="showPage('portfolio')">GIS Portfolio</button>
+    </nav>
+
+    <main id="content">
+        <section id="resume" class="page">
+            <header>
+                <h1>Nick Lewis</h1>
+                <p>GIS Analyst / Geologist</p>
+                <div class="contact-info">
+                    <span> Richmond, VA</span> | 
+                    <span>(757) 667-8823</span> | 
+                    <a href="mailto:ntompkinslew@gmail.com">ntompkinslew@gmail.com</a>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/ntlewis1251">GitHub</a> | 
+                    <a href="https://linkedin.com/in/nick-lewis-geo">LinkedIn</a>
+                </div>
+            </header>
+
+            <div class="grid">
+                <div class="col">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Software:</strong> Python, ArcGIS, QGIS, gINT, VSCode [cite: 10]</li>
+                        <li><strong>Python:</strong> Pandas, GeoPandas, Matplotlib, SciKitLearn [cite: 12]</li>
+                        <li><strong>Physical:</strong> Soil core analysis, Proctor & CBR testing [cite: 11]</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Education</h3>
+                    <p><strong>William & Mary</strong> (May 2026)</p>
+                    <p>B.A.S. in Geology, Minor in Data Science [cite: 33, 40]</p>
+                </div>
+            </div>
+
+            <h3>Technical Experience</h3>
+            <div class="job">
+                <h4>Geotechnical Engineering Intern | GET Solutions, Inc.</h4>
+                <p><em>June – August 2024</em></p>
+                <ul>
+                    <li>Collected soil samples via hand and drill rigs[cite: 17].</li>
+                    <li>Performed groundwater and environmental testing[cite: 18].</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h4>Honors Thesis | William & Mary</h4>
+                <p><em>"Potential causes of clustered knickpoints in the Appalachian Mountains"</em></p>
+                <ul>
+                    <li>Manipulated large ($>200,000 \text{ km}^2$) rasters[cite: 25].</li>
+                    <li>Organized datasets with over 1,000 items[cite: 24].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio" class="page" style="display:none;">
+            <h2>GIS Portfolio</h2>
+            <p>A collection of spatial analysis and cartographic projects.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/map1.jpg" alt="Appalachian Knickpoint Analysis">
+                    <h3>Appalachian Knickpoint Analysis</h3>
+                    <p>Raster analysis and stream profiling using Python and ArcGIS.</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/map2.jpg" alt="Soil Classification Map">
+                    <h3>Soil Classification Map</h3>
+                    <p>Visualizing stratigraphic columns and core logs based on ASTM standards.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
+            document.getElementById(pageId).style.display = 'block';
+        }
+    </script>
 </body>
 </html>
