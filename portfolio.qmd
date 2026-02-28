@@ -9,7 +9,3 @@ Highlighting spatial analysis and geological mapping projects.
 
 ![Stream Network Modeling](images/stream_analysis.png)
 :::
-
-### Project Highlights
-* [cite_start]**Knickpoint Clustering:** Visualizing geological anomalies across the Appalachian range using large-scale raster datasets[cite: 21, 25].
-* [cite_start]**PyCogs:** Python-driven vector geometry and stream analysis[cite: 27, 28].

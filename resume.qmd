@@ -2,31 +2,45 @@
 title: "Resume"
 ---
 
-## Education
-* **Bachelor of Arts and Sciences in Geology**, Minor in Data Science | [cite_start]William & Mary [cite: 7]
-* [cite_start]**W&M Stofan Scholarship Recipient** [cite: 8]
+## EDUCATION
+**Bachelor of Arts and Sciences in Geology, Minor in Data Science** | William & Mary  
+*May 2026* W&M Stofan Scholarship, William & Mary Geology and Elle Stofan
 
-## Technical Experience
+## TECHNICAL EXPERIENCE
 
-### Geotechnical Engineering Intern 
-* GET Solutions, Inc., a Terracon Company* | [cite_start]Summer 2024 [cite: 12, 13, 14]
-* [cite_start]Conducted soil testing via hand auger and drilling operations[cite: 16].
-* [cite_start]Performed field-level groundwater and environmental testing[cite: 17].
-* [cite_start]Executed computational work related to geotechnical engineering[cite: 19].
+### Geotechnical Engineering Intern
+**GET Solutions, Inc., a Terracon Company** | June - August 2024  
+* Performed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations.
+* Operational, field-level groundwater and environmental testing.
+* Selected for an intern conference in Charlotte, NC.
+* Experienced office work and computational work related to geotechnical engineering.
+* **References:** Dave Ferko, Project Manager; Greg Lewis, Project Manager.
 
 ### Honors Thesis Author
-*William & Mary* | [cite_start]Expected May 2026 [cite: 21, 10]
-* [cite_start]**Title:** "Potential causes of clustered knickpoints in the Appalachian Mountains"[cite: 21].
-* [cite_start]Managing and manipulating large ( $>200k~km^{2}$ ) rasters and datasets[cite: 24, 25].
+**William & Mary** | "Potential causes of clustered knickpoints in the Appalachian Mountains"  
+* Scientific writing and figure making for the Geology department.
+* Working with large (>1k items) datasets and manipulating large $(>200k~km^{2})$ rasters.
+* Experience writing proposals, presenting results, and organizing large coding projects.
 
-### Creator: Stream Analysis for Geoscientists
-[cite_start]*PyCogs* [cite: 27, 28]
-* [cite_start]Developed an educational resource using Jupyter Notebooks for geoscientists learning Python[cite: 29, 30].
+### Creator | Stream Analysis for Geoscientists
+**PyCogs** * Educational resource for geoscientists using Python for stream analysis.
+* Experience creating Jupyter Notebooks and communicating complex information.
 
-## Skills
-| Category | Skills |
-|----------|--------|
-| **Software** | [cite_start]Python, ArcGIS, QGIS, gINT, C, Objective C, VSCode [cite: 35] |
-| **Python** | [cite_start]Matplotlib, Seaborn, Pandas, GeoPandas, NumPy, SciKit-Learn [cite: 35] |
-| **Analysis** | [cite_start]Raster analysis, vector geometry manipulation, statistical tests [cite: 35] |
-| **Field/Lab** | [cite_start]Proctor testing, CBR testing, soil core analysis, VOC testing [cite: 35] |
+### Panelist | Bringing Coding to the Geoscience Classroom
+**National Association of Geoscience Teachers** * Assisted geoscience teachers in computational education.
+
+## SKILLS
+
+| Category | Details |
+| :--- | :--- |
+| **Software/Languages** | Python, ARCGIS, QGIS, gINT, C, Objective C, VSCode, Jupyter Notebooks |
+| **Physical Tools** | Proctor, CBR, Liquid Limit (Casagrande), Concrete compression, Soil core analysis, Well depth, Percolation, VOC testing, Petrographic microscope |
+| **Python Proficiencies** | Matplotlib, Seaborn, Pandas, GeoPandas, NumPy, Math, SciKitLearn |
+| **Communication** | Scientific writing, funding proposals, stratigraphic column/core log creation (ASTM/VDOT) |
+
+## ACTIVITIES
+* **WCWM 90.9 FM** (2022-2026)
+* **G.R.A.V.E.L. Lab** (2024-2026)
+* **History Club** (2022-2026)
+* **SKIFFY** (2022-2026)
+* **Tabletop Club** (2022-2026)

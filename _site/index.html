@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -148,7 +119,7 @@ window.Quarto = {
     
 <!-- main -->
 <div class="quarto-about-jolla">
-  <img src="profile.jpg" class="about-image
+  <img src="images/profile.png" class="about-image
   round " style="height: 15em; width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -158,84 +129,15 @@ window.Quarto = {
   </div>
 </header><main class="content" id="quarto-document-content">
 <div class="banner-container">
-<img src="banner.png" class="banner-image">
+<img src="images/banner.png" class="banner-image">
 </div>
 <div class="button-rectangle">
 <p><a href="https://github.com/ntlewis1251">GIS Portfolio</a> <a href="CV.pdf">Resume (PDF)</a></p>
 </div>
 <p><strong>GIS Analyst / Geologist</strong> Richmond, VA | ntompkinslew@gmail.com | (757) 667-8823</p>
 <hr>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">EDUCATION</h2>
-<p><strong>Bachelor of Arts and Sciences in Geology, Minor in Data Science</strong> | William &amp; Mary<br>
-[cite_start]<em>May 2026</em> W&amp;M Stofan Scholarship, William &amp; Mary Geology and Elle Stofan [cite: 7, 8, 10]</p>
-</section>
-<section id="technical-experience" class="level2">
-<h2 data-anchor-id="technical-experience">TECHNICAL EXPERIENCE</h2>
-<section id="geotechnical-engineering-intern" class="level3">
-<h3 data-anchor-id="geotechnical-engineering-intern">Geotechnical Engineering Intern</h3>
-<p><strong>GET Solutions, Inc., a Terracon Company</strong> | June - August 2024<br>
-* [cite_start]Performed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations. [cite: 16] * [cite_start]Operational, field-level groundwater and environmental testing. [cite: 17] * [cite_start]Selected for an intern conference in Charlotte, NC. [cite: 18] * [cite_start]Experienced office work and computational work related to geotechnical engineering. [cite: 19] * <strong>References:</strong> Dave Ferko, Project Manager; [cite_start]Greg Lewis, Project Manager. [cite: 20]</p>
-</section>
-<section id="honors-thesis-author" class="level3">
-<h3 data-anchor-id="honors-thesis-author">Honors Thesis Author</h3>
-<p><strong>William &amp; Mary</strong> | “Potential causes of clustered knickpoints in the Appalachian Mountains”<br>
-* [cite_start]Scientific writing and figure making for the Geology department. [cite: 23] * [cite_start]Working with large (&gt;1k items) datasets and manipulating large <span class="math inline">\((&gt;200k~km^{2})\)</span> rasters. [cite: 24, 25] * [cite_start]Experience writing proposals, presenting results, and organizing large coding projects. [cite: 25, 26]</p>
-</section>
-<section id="creator-stream-analysis-for-geoscientists" class="level3">
-<h3 data-anchor-id="creator-stream-analysis-for-geoscientists">Creator | Stream Analysis for Geoscientists</h3>
-<p>[cite_start]<strong>PyCogs</strong> * Educational resource for geoscientists using Python for stream analysis. [cite: 29] * [cite_start]Experience creating Jupyter Notebooks and communicating complex information. [cite: 30]</p>
-</section>
-<section id="panelist-bringing-coding-to-the-geoscience-classroom" class="level3">
-<h3 data-anchor-id="panelist-bringing-coding-to-the-geoscience-classroom">Panelist | Bringing Coding to the Geoscience Classroom</h3>
-<p>[cite_start]<strong>National Association of Geoscience Teachers</strong> * Assisted geoscience teachers in computational education. [cite: 33]</p>
-</section>
-</section>
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">SKILLS</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Category</th>
-<th style="text-align: left;">Details</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Software/Languages</strong></td>
-<td style="text-align: left;">[cite_start]Python, ARCGIS, QGIS, gINT, C, Objective C, VSCode, Jupyter Notebooks [cite: 35]</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Physical Tools</strong></td>
-<td style="text-align: left;">[cite_start]Proctor, CBR, Liquid Limit (Casagrande), Concrete compression, Soil core analysis, Well depth, Percolation, VOC testing, Petrographic microscope [cite: 35]</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Python Proficiencies</strong></td>
-<td style="text-align: left;">[cite_start]Matplotlib, Seaborn, Pandas, GeoPandas, NumPy, Math, SciKitLearn [cite: 35]</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Communication</strong></td>
-<td style="text-align: left;">[cite_start]Scientific writing, funding proposals, stratigraphic column/core log creation (ASTM/VDOT) [cite: 35]</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="activities" class="level2">
-<h2 data-anchor-id="activities">ACTIVITIES</h2>
-<ul>
-<li>[cite_start]<strong>WCWM 90.9 FM</strong> (2022-2026) [cite: 41]</li>
-<li><strong>G.R.A.V.E.L. [cite_start]Lab</strong> (2024-2026) [cite: 41]</li>
-<li>[cite_start]<strong>History Club</strong> (2022-2026) [cite: 41]</li>
-<li>[cite_start]<strong>SKIFFY / Tabletop Club</strong> (2022-2026) [cite: 41]</li>
-<li>[cite_start]<strong>Charles Center Research Symposium Presenter</strong> (2026) [cite: 41]</li>
-</ul>
 
 
-</section>
 </main>  
 </div>
  <!-- /main -->
