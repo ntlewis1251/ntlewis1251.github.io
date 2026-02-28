@@ -1,32 +1,42 @@
-/* Earth-Tone Geoscience Theme */
-body {
-    background-color: #fdfaf5; /* Off-white parchment */
-    color: #33332d; /* Dark stone gray */
+/* Banner Styling */
+.banner-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.navbar {
-    background-color: #4a5d4e; /* Deep Sage */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
-.navbar-brand, .nav-link {
-    color: #ffffff !important;
+/* Centered Rounded Rectangle for Buttons */
+.button-rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #9da3a9; /* A desaturated LinkedIn-blue/grey */
+  padding: 20px;
+  border-radius: 50px; /* Fully rounded ends */
+  margin: 30px auto;
+  max-width: 500px;
 }
 
-h1, h2, h3 {
-    color: #8c462e; /* Terracotta/Clay */
-    border-bottom: 1px solid #d4c5b3;
+.button-rectangle a {
+  background-color: white;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-a {
-    color: #5b7c89; /* Slate Blue */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Specific styling for your profile image */
-.quarto-about-jolla img {
-    border: 5px solid #d4c5b3;
+.button-rectangle a:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
 }
