@@ -1,20 +1,21 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Nick Lewis"
+  # This removes the "on this page" sidebar site-wide
+  toc: false
   navbar:
     left:
       - href: index.qmd
-        text: About
-      - href: resume.qmd
-        text: Resume
-      - href: portfolio.qmd
-        text: GIS Portfolio
+        text: Home
+    right:
+      - icon: github
+        href: https://github.com/ntlewis1251
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nick-lewis-geo/
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true

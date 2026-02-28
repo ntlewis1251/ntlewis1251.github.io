@@ -1,17 +1,62 @@
 ---
 title: "Nick Lewis"
+image: profile.jpg # Replace with your downloaded LinkedIn profile pic
 about:
   template: jolla
-  image: images/profile.jpg
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/ntlewis1251
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/nick-lewis-geo
+  image-width: 15em
+  image-shape: round
 ---
 
-[cite_start]Nick Lewis is a GIS Analyst and Geologist based in Richmond, VA[cite: 1, 5]. [cite_start]Currently completing a Bachelor of Arts and Sciences in Geology with a minor in Data Science at William & Mary[cite: 7].
+<div class="banner-container">
+  <img src="banner.png" class="banner-image"> </div>
 
-I specialize in geotechnical engineering, spatial analysis, and Python-based geoscience workflows. [cite_start]My work focuses on the intersection of physical geology and computational methods, specifically in stream analysis and Appalachian geomorphology[cite: 21, 27].
+::: {.button-rectangle}
+[GIS Portfolio](https://github.com/ntlewis1251) [Resume (PDF)](CV.pdf)
+:::
+
+**GIS Analyst / Geologist** Richmond, VA | ntompkinslew@gmail.com | (757) 667-8823  
+
+---
+
+## EDUCATION
+**Bachelor of Arts and Sciences in Geology, Minor in Data Science** | William & Mary  
+[cite_start]*May 2026* W&M Stofan Scholarship, William & Mary Geology and Elle Stofan [cite: 7, 8, 10]
+
+## TECHNICAL EXPERIENCE
+
+### Geotechnical Engineering Intern
+**GET Solutions, Inc., a Terracon Company** | June - August 2024  
+* [cite_start]Performed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations. [cite: 16]
+* [cite_start]Operational, field-level groundwater and environmental testing. [cite: 17]
+* [cite_start]Selected for an intern conference in Charlotte, NC. [cite: 18]
+* [cite_start]Experienced office work and computational work related to geotechnical engineering. [cite: 19]
+* **References:** Dave Ferko, Project Manager; [cite_start]Greg Lewis, Project Manager. [cite: 20]
+
+### Honors Thesis Author
+**William & Mary** | "Potential causes of clustered knickpoints in the Appalachian Mountains"  
+* [cite_start]Scientific writing and figure making for the Geology department. [cite: 23]
+* [cite_start]Working with large (>1k items) datasets and manipulating large $(>200k~km^{2})$ rasters. [cite: 24, 25]
+* [cite_start]Experience writing proposals, presenting results, and organizing large coding projects. [cite: 25, 26]
+
+### Creator | Stream Analysis for Geoscientists
+[cite_start]**PyCogs** * Educational resource for geoscientists using Python for stream analysis. [cite: 29]
+* [cite_start]Experience creating Jupyter Notebooks and communicating complex information. [cite: 30]
+
+### Panelist | Bringing Coding to the Geoscience Classroom
+[cite_start]**National Association of Geoscience Teachers** * Assisted geoscience teachers in computational education. [cite: 33]
+
+## SKILLS
+
+| Category | Details |
+| :--- | :--- |
+| **Software/Languages** | [cite_start]Python, ARCGIS, QGIS, gINT, C, Objective C, VSCode, Jupyter Notebooks [cite: 35] |
+| **Physical Tools** | [cite_start]Proctor, CBR, Liquid Limit (Casagrande), Concrete compression, Soil core analysis, Well depth, Percolation, VOC testing, Petrographic microscope [cite: 35] |
+| **Python Proficiencies** | [cite_start]Matplotlib, Seaborn, Pandas, GeoPandas, NumPy, Math, SciKitLearn [cite: 35] |
+| **Communication** | [cite_start]Scientific writing, funding proposals, stratigraphic column/core log creation (ASTM/VDOT) [cite: 35] |
+
+## ACTIVITIES
+* [cite_start]**WCWM 90.9 FM** (2022-2026) [cite: 41]
+* **G.R.A.V.E.L. [cite_start]Lab** (2024-2026) [cite: 41]
+* [cite_start]**History Club** (2022-2026) [cite: 41]
+* [cite_start]**SKIFFY / Tabletop Club** (2022-2026) [cite: 41]
+* [cite_start]**Charles Center Research Symposium Presenter** (2026) [cite: 41]
