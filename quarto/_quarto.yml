@@ -1,21 +1,20 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "site"
+  title: "Nick Lewis"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: resume.qmd
+        text: Resume
+      - href: portfolio.qmd
+        text: GIS Portfolio
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-

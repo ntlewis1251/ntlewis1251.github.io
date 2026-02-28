@@ -1,0 +1,32 @@
+---
+title: "Resume"
+---
+
+## Education
+* **Bachelor of Arts and Sciences in Geology**, Minor in Data Science | [cite_start]William & Mary [cite: 7]
+* [cite_start]**W&M Stofan Scholarship Recipient** [cite: 8]
+
+## Technical Experience
+
+### Geotechnical Engineering Intern 
+*GET Solutions, Inc., a Terracon Company* | [cite_start]Summer 2024 [cite: 12, 13, 14]
+* [cite_start]Conducted soil testing via hand auger and drilling operations[cite: 16].
+* [cite_start]Performed field-level groundwater and environmental testing[cite: 17].
+* [cite_start]Executed computational work related to geotechnical engineering[cite: 19].
+
+### Honors Thesis Author
+*William & Mary* | [cite_start]Expected May 2026 [cite: 21, 10]
+* [cite_start]**Title:** "Potential causes of clustered knickpoints in the Appalachian Mountains"[cite: 21].
+* [cite_start]Managing and manipulating large ( $>200k~km^{2}$ ) rasters and datasets[cite: 24, 25].
+
+### Creator: Stream Analysis for Geoscientists
+[cite_start]*PyCogs* [cite: 27, 28]
+* [cite_start]Developed an educational resource using Jupyter Notebooks for geoscientists learning Python[cite: 29, 30].
+
+## Skills
+| Category | Skills |
+|----------|--------|
+| **Software** | [cite_start]Python, ArcGIS, QGIS, gINT, C, Objective C, VSCode [cite: 35] |
+| **Python** | [cite_start]Matplotlib, Seaborn, Pandas, GeoPandas, NumPy, SciKit-Learn [cite: 35] |
+| **Analysis** | [cite_start]Raster analysis, vector geometry manipulation, statistical tests [cite: 35] |
+| **Field/Lab** | [cite_start]Proctor testing, CBR testing, soil core analysis, VOC testing [cite: 35] |

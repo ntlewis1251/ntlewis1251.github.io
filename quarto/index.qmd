@@ -1,7 +1,17 @@
 ---
-title: "site"
+title: "Nick Lewis"
+about:
+  template: jolla
+  image: images/profile.jpg
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/ntlewis1251
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/nick-lewis-geo
 ---
 
-This is a Quarto website.
+[cite_start]Nick Lewis is a GIS Analyst and Geologist based in Richmond, VA[cite: 1, 5]. [cite_start]Currently completing a Bachelor of Arts and Sciences in Geology with a minor in Data Science at William & Mary[cite: 7].
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I specialize in geotechnical engineering, spatial analysis, and Python-based geoscience workflows. [cite_start]My work focuses on the intersection of physical geology and computational methods, specifically in stream analysis and Appalachian geomorphology[cite: 21, 27].
