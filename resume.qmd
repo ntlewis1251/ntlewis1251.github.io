@@ -9,7 +9,7 @@ title: "Resume"
 ## Technical Experience
 
 ### Geotechnical Engineering Intern 
-*GET Solutions, Inc., a Terracon Company* | [cite_start]Summer 2024 [cite: 12, 13, 14]
+* GET Solutions, Inc., a Terracon Company* | [cite_start]Summer 2024 [cite: 12, 13, 14]
 * [cite_start]Conducted soil testing via hand auger and drilling operations[cite: 16].
 * [cite_start]Performed field-level groundwater and environmental testing[cite: 17].
 * [cite_start]Executed computational work related to geotechnical engineering[cite: 19].
