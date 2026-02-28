@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: quarto
+  output-dir: docs
 
 website:
   title: "Nick Lewis"
