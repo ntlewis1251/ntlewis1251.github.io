@@ -1,1 +1,32 @@
-/* css styles */
+/* Earth-Tone Geoscience Theme */
+body {
+    background-color: #fdfaf5; /* Off-white parchment */
+    color: #33332d; /* Dark stone gray */
+}
+
+.navbar {
+    background-color: #4a5d4e; /* Deep Sage */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+h1, h2, h3 {
+    color: #8c462e; /* Terracotta/Clay */
+    border-bottom: 1px solid #d4c5b3;
+}
+
+a {
+    color: #5b7c89; /* Slate Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Specific styling for your profile image */
+.quarto-about-jolla img {
+    border: 5px solid #d4c5b3;
+}
