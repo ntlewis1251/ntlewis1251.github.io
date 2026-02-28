@@ -3,8 +3,6 @@ project:
 
 website:
   title: "Nick Lewis"
-  # This removes the "on this page" sidebar site-wide
-  toc: false
   navbar:
     left:
       - href: index.qmd
