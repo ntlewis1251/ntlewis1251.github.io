@@ -1,19 +1,40 @@
 /* Full-page hero background with fade to white */
 body {
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
 
+#quarto-content {
+  padding-top: 0 !important;
+}
+
+/* Remove Quarto page width restriction */
+.page-layout-article .page-content {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0 !important;
+}
+
+/* Make hero span full viewport width */
 .hero {
   min-height: 100vh;
+  width: 100vw;              /* force full viewport width */
+  margin-left: calc(-50vw + 50%);  /* break out of centered container */
+
   background-image:
     linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%),
-    url("background.jpg");
+    url("images/IMG_4007.JPG");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   display: flex;
+  justify-content: flex-end;
   align-items: flex-start;
-  padding: 60px;
+  /* padding: 60px; */
 }
 
 /* Layout: profile + text aligned */
@@ -21,12 +42,21 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 25px;
-  color: white;
+
+  background: rgba(255, 255, 255, 0.92);
+  color: black;
+
+  padding: 40px 50px;
+  border-radius: 20px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+
+  max-width: 600px;
 }
 
 /* Profile image */
 .hero img {
-  width: 150px;
+  width: 130px;
   border-radius: 50%;
 }
 

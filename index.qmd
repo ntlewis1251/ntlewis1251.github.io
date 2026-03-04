@@ -1,18 +1,14 @@
----
-title: "Nick Lewis"
----
-
 ::: {.hero}
 ::: {.hero-content}
 
-![](profile.jpg)
+![](images/profile.png)
 
-# Your Name
+# Nick Lewis
 
-Job Title 1  
-Job Title 2  
-email@email.com  
-[LinkedIn](#) | [GitHub](#)
+GIS Analyst /
+Geologist
+ntompkinslew@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/nick-lewis-geo/) | [GitHub](https://github.com/ntlewis1251)
 
 :::
 :::
