@@ -3,31 +3,37 @@ title: "Resume"
 ---
 
 ## EDUCATION
-**Bachelor of Arts and Sciences in Geology, Minor in Data Science** | William & Mary  
-*May 2026* W&M Stofan Scholarship, William & Mary Geology and Elle Stofan
+**Bachelor of Arts and Sciences in Geology, Minor in Data Science** at [William & Mary](https://www.wm.edu/as/geology/)
+W&M Stofan Scholarship, William & Mary Geology and Elle Stofan
 
 ## TECHNICAL EXPERIENCE
 
 ### Geotechnical Engineering Intern
-**GET Solutions, Inc., a Terracon Company** | June - August 2024  
+**GET Solutions, Inc., a Terracon Company** | June - August 2024
+
 * Performed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations.
 * Operational, field-level groundwater and environmental testing.
 * Selected for an intern conference in Charlotte, NC.
 * Experienced office work and computational work related to geotechnical engineering.
-* **References:** Dave Ferko, Project Manager; Greg Lewis, Project Manager.
+* **References:** Dave Ferko ((757) 620-1400), GEotechnical Department Manager; Greg Lewis ((202) 669-5755), Project Manager.
 
 ### Honors Thesis Author
-**William & Mary** | "Potential causes of clustered knickpoints in the Appalachian Mountains"  
+**William & Mary** | "Potential causes of clustered knickpoints in the Appalachian Mountains"
+
 * Scientific writing and figure making for the Geology department.
-* Working with large (>1k items) datasets and manipulating large $(>200k~km^{2})$ rasters.
+* Working with large datasets and manipulating large $(>200k~km^{2})$ rasters.
 * Experience writing proposals, presenting results, and organizing large coding projects.
 
 ### Creator | Stream Analysis for Geoscientists
-**PyCogs** * Educational resource for geoscientists using Python for stream analysis.
+**PyCogs** 
+
+* Educational resource for geoscientists using Python for stream analysis.
 * Experience creating Jupyter Notebooks and communicating complex information.
 
 ### Panelist | Bringing Coding to the Geoscience Classroom
-**National Association of Geoscience Teachers** * Assisted geoscience teachers in computational education.
+**National Association of Geoscience Teachers** 
+
+* Assisted geoscience teachers in computational education.
 
 ## SKILLS
 
