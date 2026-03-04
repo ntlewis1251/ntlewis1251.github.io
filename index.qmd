@@ -1,19 +1,67 @@
 ---
-title: "Nick Lewis"
-image: images/profile.png # Replace with your downloaded LinkedIn profile pic
-about:
-  template: jolla
-  image-width: 15em
-  image-shape: round
+title: ""
+format: 
+  html:
+    theme: default
+    css: styles.css
 ---
 
-<div class="banner-container">
-  <img src="images/banner.png" class="banner-image"> </div>
+<style>
 
-::: {.button-rectangle}
-[GIS Portfolio](portfolio.qmd) [Resume (PDF)](resume.qmd)
-:::
+/* Hero section with background image */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: 
+    linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%),
+    url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-**GIS Analyst / Geologist** Richmond, VA | ntompkinslew@gmail.com | (757) 667-8823  
+/* Content container */
+.hero-content {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  color: white;
+}
 
----
+/* Profile image */
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text styling */
+.hero-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin: 5px 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+</style>
+
+<div class="hero">
+  <div class="hero-content">
+    <img src="profile.jpg" class="profile-pic">
+    <div class="hero-text">
+      <h1>Your Name</h1>
+      <p>Job Title 1</p>
+      <p>Job Title 2</p>
+      <p>Email | LinkedIn | GitHub</p>
+    </div>
+  </div>
+</div>
