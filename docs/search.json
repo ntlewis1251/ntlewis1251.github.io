@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Nick Lewis",
     "section": "",
-    "text": "&lt;img src=\"profile.jpg\" class=\"profile-pic\"&gt;\n&lt;div class=\"hero-text\"&gt;\n  &lt;h1&gt;Your Name&lt;/h1&gt;\n  &lt;p&gt;Job Title 1&lt;/p&gt;\n  &lt;p&gt;Job Title 2&lt;/p&gt;\n  &lt;p&gt;Email | LinkedIn | GitHub&lt;/p&gt;\n&lt;/div&gt;"
+    "text": "&lt;img src=\"images/profile.png\" class=\"profile-pic\"&gt;\n&lt;div class=\"hero-text\"&gt;\n  &lt;h1&gt;Your Name&lt;/h1&gt;\n  &lt;p&gt;Job Title 1&lt;/p&gt;\n  &lt;p&gt;Job Title 2&lt;/p&gt;\n  &lt;p&gt;Email | LinkedIn | GitHub&lt;/p&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "portfolio.html",
