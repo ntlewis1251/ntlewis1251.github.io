@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "GIS Portfolio",
+    "section": "",
+    "text": "Highlighting spatial analysis and geological mapping projects.\n\n\n\n\n\n\nAppalachian Knickpoint Analysis\n\n\n\n\n\n\n\nStream Network Modeling"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nick Lewis",
+    "section": "",
+    "text": "GIS Portfolio Resume (PDF)\n\nGIS Analyst / Geologist Richmond, VA | ntompkinslew@gmail.com | (757) 667-8823"
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
@@ -35,24 +49,10 @@
     "text": "ACTIVITIES\n\nWCWM 90.9 FM (2022-2026)\nG.R.A.V.E.L. Lab (2024-2026)\nHistory Club (2022-2026)\nSKIFFY (2022-2026)\nTabletop Club (2022-2026)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nick Lewis",
-    "section": "",
-    "text": "GIS Portfolio Resume (PDF)\n\nGIS Analyst / Geologist Richmond, VA | ntompkinslew@gmail.com | (757) 667-8823"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "GIS Portfolio",
-    "section": "",
-    "text": "Highlighting spatial analysis and geological mapping projects.\n\n\n\n\n\n\nAppalachian Knickpoint Analysis\n\n\n\n\n\n\n\nStream Network Modeling"
   }
 ]
