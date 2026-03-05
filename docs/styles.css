@@ -73,25 +73,48 @@
   border-top: none;
 }
 
-/* Increase horizontal space between columns */
-.blurb .columns {
-  display: flex;
-  align-items: center;
-  gap: 6rem;          /* ← strong separation */
+/* Desktop layout */
+@media (min-width: 992px) {
+
+  .blurb .columns {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .blurb .column {
+    flex: 1;
+  }
+
+  .blurb .column:first-child {
+    padding-right: 2rem;
+  }
+
+  .blurb .column:last-child {
+    padding-left: 2rem;
+  }
 }
 
-/* Ensure columns take equal width */
-.blurb .column {
-  flex: 1;
-}
+/* Mobile layout */
+@media (max-width: 991px) {
 
-/* Add internal padding so text doesn’t feel crowded */
-.blurb .column:first-child {
-  padding-right: 2rem;
-}
+  .blurb {
+    padding: 4rem 1.5rem;
+  }
 
-.blurb .column:last-child {
-  padding-left: 2rem;
+  .blurb .columns {
+    display: block;       /* Restore stacking */
+  }
+
+  .blurb .column {
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .blurb img {
+    margin-top: 2rem;
+    width: 100%;
+  }
 }
 
 /* Image styling */
@@ -99,6 +122,7 @@
   width: 100%;
   border-radius: 10px;
 }
+
 
 /* Strong horizontal separation */
 .columns {

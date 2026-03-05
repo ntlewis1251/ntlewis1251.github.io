@@ -1,0 +1,37 @@
+
+/* BLURB SECTIONS */
+.blurb {
+  padding: 7rem 8%;
+  border-top: 1px solid var(--divider);
+}
+
+.blurb:first-of-type {
+  border-top: none;
+}
+
+/* Increase horizontal space between columns */
+.blurb .columns {
+  display: flex;
+  align-items: center;
+  gap: 6rem;          /* ← strong separation */
+}
+
+/* Ensure columns take equal width */
+.blurb .column {
+  flex: 1;
+}
+
+/* Add internal padding so text doesn’t feel crowded */
+.blurb .column:first-child {
+  padding-right: 2rem;
+}
+
+.blurb .column:last-child {
+  padding-left: 2rem;
+}
+
+/* Image styling */
+.blurb img {
+  width: 100%;
+  border-radius: 10px;
+}
