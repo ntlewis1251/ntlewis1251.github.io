@@ -1,3 +1,26 @@
+/* Remove top spacing so hero touches navbar */
+body.quarto-light .page-content {
+  padding-top: 0;
+}
+
+main.content {
+  padding-top: 0;
+}
+
+/* Remove empty title block space */
+.quarto-title-block {
+  display: none;
+}
+
+.hero {
+  margin-top: -5rem;
+}
+
+.navbar {
+  background-color: rgba(31,45,58,0.85);
+  backdrop-filter: blur(6px);
+}
+
 :root {
   --primary: #1f2d3a;
   --accent: #2f5d50;
