@@ -5,7 +5,17 @@ title: "GIS Portfolio"
 Highlighting spatial analysis and geological mapping projects.
 
 ::: {layout-ncol=2}
-![Appalachian Knickpoint Analysis](images/FIG1_FIN_1.png)
+### Appalachian Knickpoint Analysis
+![](images/site_fig.jpg)
 
-![Stream Network Modeling](images/stream_analysis.png)
+### Geological Mapping
+![](images/Geology_map.png)
+:::
+
+::: {layout-ncol=2}
+### USDA Map Series
+![](images/map_ser.jpg)
+
+### New Hampshire Forest Cover
+![](images/mapchallenge1.jpg)
 :::
