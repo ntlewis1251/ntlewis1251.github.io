@@ -61,7 +61,7 @@ For the last 2 years, I have been working with [Joanmarie Del Vecchio](https://w
 ::: {.column width="50%"}
 ### Passion for cartography
 
-I find great enjoyement in creating visually pleasing and artistic mpas that display data in pragmatic, clear ways.
+I find great enjoyement in creating visually pleasing and artistic maps that display data in pragmatic, clear ways.
 :::
 
 ::::
