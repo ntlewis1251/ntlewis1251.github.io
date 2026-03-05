@@ -17,32 +17,31 @@ listing:
 
 ![](images/profile.jpg){.profile-pic}
 
-# Your Name
+# Nick Lewis
 
-Environmental Geologist  
-Groundwater | Site Assessment | Remediation Strategy
-
-Delivering technically defensible environmental solutions aligned with regulatory compliance and risk management objectives.
+Geomorphologist / GIS Analyst  
+Leveraging field and computational research experience for data-driven analysis.
+ntompkinslew@gmail.com | [GitHub](https://github.com/ntlewis1251) | [LinkedIn](https://www.linkedin.com/in/nick-lewis-geo/) | (757) 667-8823
 
 :::
 :::
 
 ---
 
-## Environmental Practice
+## About me
 
 ::: {.blurb}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Site Investigation & Subsurface Characterization
+### Geology, coding, and data science.
 
-I lead and support Phase I and Phase II Environmental Site Assessments, groundwater monitoring network design, and subsurface investigations across complex regulatory environments.
+For the last 2 years, I have been working with [Joanmarie Del Vecchio](https://www.wm.edu/as/geology/people/faculty/delvecchio_j.php) and [Chuck Bailey](https://www.wm.edu/as/geology/people/faculty/bailey_c.php) on an honors thesis in the geology department at William & Mary: Potential causes of clustered knickpoints in the Appalachians.  The study entailed raster analysis, data management, scientific writing, proposal writing, and figure making.
 :::
 
 ::: {.column width="50%"}
-![](images/about1.jpg)
+![](images/thesis_.png)
 :::
 
 ::::
@@ -56,13 +55,13 @@ I lead and support Phase I and Phase II Environmental Site Assessments, groundwa
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](images/about2.jpg)
+![](images/choropleth.png)
 :::
 
 ::: {.column width="50%"}
-### Regulatory Strategy & Technical Reporting
+### Passion for cartography
 
-I prepare defensible technical documentation supporting state and federal compliance frameworks, ensuring clarity, precision, and data integrity.
+I find great enjoyement in creating visually pleasing and artistic mpas that display data in pragmatic, clear ways.
 :::
 
 ::::
@@ -76,13 +75,13 @@ I prepare defensible technical documentation supporting state and federal compli
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Environmental Data Analytics & GIS
+### Music
 
-I integrate hydrogeologic data, spatial analysis, and visualization tools to support risk-based decision making and stakeholder communication.
+When im not working, I make bad rock music [here](https://ceilingwax.bandcamp.com/album/small-world-demos).
 :::
 
 ::: {.column width="50%"}
-![](images/about3.jpg)
+![](images/covera.jpg)
 :::
 
 ::::

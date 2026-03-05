@@ -4,21 +4,21 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Bachelor of Arts and Sciences in Geology, Minor in Data Science at William & Mary W&M Stofan Scholarship, William & Mary Geology and Elle Stofan"
+    "text": "Bachelor of Arts and Sciences in Geology, Minor in Data Science | William & Mary\nW&M Stofan Scholarship | William & Mary Geology and Elle Stofan"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
     "section": "",
-    "text": "Bachelor of Arts and Sciences in Geology, Minor in Data Science at William & Mary W&M Stofan Scholarship, William & Mary Geology and Elle Stofan"
+    "text": "Bachelor of Arts and Sciences in Geology, Minor in Data Science | William & Mary\nW&M Stofan Scholarship | William & Mary Geology and Elle Stofan"
   },
   {
     "objectID": "resume.html#technical-experience",
     "href": "resume.html#technical-experience",
     "title": "Resume",
     "section": "TECHNICAL EXPERIENCE",
-    "text": "TECHNICAL EXPERIENCE\n\nGeotechnical Engineering Intern\nGET Solutions, Inc., a Terracon Company | June - August 2024\n\nPerformed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations.\nOperational, field-level groundwater and environmental testing.\nSelected for an intern conference in Charlotte, NC.\nExperienced office work and computational work related to geotechnical engineering.\nReferences: Dave Ferko ((757) 620-1400), GEotechnical Department Manager; Greg Lewis ((202) 669-5755), Project Manager.\n\n\n\nHonors Thesis Author\nWilliam & Mary | “Potential causes of clustered knickpoints in the Appalachian Mountains”\n\nScientific writing and figure making for the Geology department.\nWorking with large datasets and manipulating large \\((&gt;200k~km^{2})\\) rasters.\nExperience writing proposals, presenting results, and organizing large coding projects.\n\n\n\nCreator | Stream Analysis for Geoscientists\nPyCogs\n\nEducational resource for geoscientists using Python for stream analysis.\nExperience creating Jupyter Notebooks and communicating complex information.\n\n\n\nPanelist | Bringing Coding to the Geoscience Classroom\nNational Association of Geoscience Teachers\n\nAssisted geoscience teachers in computational education."
+    "text": "TECHNICAL EXPERIENCE\n\nGeotechnical Engineering Intern\nGET Solutions, Inc., a Terracon Company | June - August 2024\n\nPerformed soil testing using multiple techniques, including sample collection by hand auger and from drilling operations.\nOperational, field-level groundwater and environmental testing.\nSelected for an intern conference in Charlotte, NC.\nExperienced office work and computational work related to geotechnical engineering.\nReferences: Dave Ferko ((757) 620-1400), GEotechnical Department Manager; Greg Lewis ((202) 669-5755), Project Manager.\n\n\n\nHonors Thesis Author | “Potential causes of clustered knickpoints in the Appalachian Mountains”\nWilliam & Mary | January 2025 - May 2026\n\nScientific writing and figure making for the Geology department.\nWorking with large datasets and manipulating large \\((&gt;200k~km^{2})\\) rasters.\nExperience writing proposals, presenting results, and organizing large coding projects.\n\n\n\nCreator | Stream Analysis for Geoscientists\nPyCogs | January 2025 - May 2026\n\nEducational resource for geoscientists using Python for stream analysis.\nExperience creating Jupyter Notebooks and communicating complex concepts.\n\n\n\nPanelist | Bringing Coding to the Geoscience Classroom\nNational Association of Geoscience Teachers (Eastern Division) | January 2026\n\nAssisted geoscience teachers in designing methods of computational education."
   },
   {
     "objectID": "resume.html#skills",
@@ -44,21 +44,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Your Name",
+    "title": "Nick Lewis",
     "section": "",
-    "text": "Environmental Geologist\nGroundwater | Site Assessment | Remediation Strategy\nDelivering technically defensible environmental solutions aligned with regulatory compliance and risk management objectives."
+    "text": "Geomorphologist / GIS Analyst\nLeveraging field and computational research experience for data-driven analysis. ntompkinslew@gmail.com | GitHub | LinkedIn | (757) 667-8823"
   },
   {
-    "objectID": "index.html#environmental-practice",
-    "href": "index.html#environmental-practice",
-    "title": "Your Name",
-    "section": "Environmental Practice",
-    "text": "Environmental Practice\n\n\n\n\nSite Investigation & Subsurface Characterization\nI lead and support Phase I and Phase II Environmental Site Assessments, groundwater monitoring network design, and subsurface investigations across complex regulatory environments.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegulatory Strategy & Technical Reporting\nI prepare defensible technical documentation supporting state and federal compliance frameworks, ensuring clarity, precision, and data integrity.\n\n\n\n\n\n\n\n\n\nEnvironmental Data Analytics & GIS\nI integrate hydrogeologic data, spatial analysis, and visualization tools to support risk-based decision making and stakeholder communication."
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Nick Lewis",
+    "section": "About me",
+    "text": "About me\n\n\n\n\nGeology, coding, and data science.\nFor the last 2 years, I have been working with Joanmarie Del Vecchio and Chuck Bailey on an honors thesis in the geology department at William & Mary: Potential causes of clustered knickpoints in the Appalachians. The study entailed raster analysis, data management, scientific writing, proposal writing, and figure making.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPassion for cartography\nI find great enjoyement in creating visually pleasing and artistic mpas that display data in pragmatic, clear ways.\n\n\n\n\n\n\n\n\n\nMusic\nWhen im not working, I make bad rock music here."
   },
   {
     "objectID": "index.html#latest-insight",
     "href": "index.html#latest-insight",
-    "title": "Your Name",
+    "title": "Nick Lewis",
     "section": "Latest Insight",
     "text": "Latest Insight\n\n\n\n\n\nAdaptive Groundwater Monitoring in Heterogeneous Aquifers\n\n\nStrategies for monitoring network optimization under regulatory constraints and subsurface uncertainty.\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\nNo matching items"
   },

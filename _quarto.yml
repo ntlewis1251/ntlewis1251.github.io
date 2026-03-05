@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Your Name"
+  title: "Nick Lewis"
 
   navbar:
     left:
@@ -23,11 +23,11 @@ website:
         href: https://linkedin.com/in/yourusername
 
   page-footer:
-    center: "© 2026 Your Name"
+    center: "2026 Nick Lewis"
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: false
     page-layout: full
