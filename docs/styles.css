@@ -1,79 +1,30 @@
-/* Full-page hero background with fade to white */
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+/* =========================
+   Transparent Navbar (Homepage Only)
+========================= */
+
+.home .navbar {
+  position: absolute;        /* overlay */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  z-index: 1000;
 }
 
-#quarto-content {
+/* Make navbar text white */
+.home .navbar a,
+.home .navbar .navbar-brand {
+  color: white !important;
+}
+
+/* Optional: subtle hover effect */
+.home .navbar a:hover {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+/* Remove space created for fixed nav */
+.home .quarto-container {
   padding-top: 0 !important;
-}
-
-/* Remove Quarto page width restriction */
-.page-layout-article .page-content {
-  max-width: none;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0 !important;
-}
-
-/* Make hero span full viewport width */
-.hero {
-  min-height: 100vh;
-  width: 100vw;              /* force full viewport width */
-  margin-left: calc(-50vw + 50%);  /* break out of centered container */
-
-  background-image:
-    linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%),
-    url("images/IMG_4007.JPG");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  /* padding: 60px; */
-}
-
-/* Layout: profile + text aligned */
-.hero-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-
-  background: rgba(255, 255, 255, 0.92);
-  color: black;
-
-  padding: 40px 50px;
-  border-radius: 20px;
-
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-
-  max-width: 600px;
-}
-
-/* Profile image */
-.hero img {
-  width: 130px;
-  border-radius: 50%;
-}
-
-/* Name styling */
-.hero h1 {
-  margin: 0;
-  font-size: 2.8rem;
-  font-weight: 700;
-}
-
-/* Smaller info text */
-.hero p {
-  margin: 4px 0;
-  font-size: 1.1rem;
-}
-
-/* Ensure fade area becomes fully white */
-main {
-  background: white;
 }

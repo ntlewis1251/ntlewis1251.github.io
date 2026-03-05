@@ -1,0 +1,8 @@
+---
+title: "Adaptive Groundwater Monitoring in Heterogeneous Aquifers"
+date: 2026-03-01
+description: "Strategies for monitoring network optimization under regulatory constraints and subsurface uncertainty."
+categories: [groundwater, remediation]
+---
+
+Content here.

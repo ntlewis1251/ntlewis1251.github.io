@@ -1,0 +1,96 @@
+:root {
+  --primary: #1f2d3a;
+  --accent: #2f5d50;
+  --light: #f4f6f7;
+  --divider: #e0e6ea;
+}
+
+/* Wider layout */
+.page-columns {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* HERO */
+.hero {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 11rem 1rem;
+  text-align: center;
+}
+
+.hero-overlay {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 3rem 4rem;
+  border-radius: 18px;
+  display: inline-block;
+  max-width: 850px;
+}
+
+.profile-pic {
+  width: 155px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* BLURB SECTIONS */
+.blurb {
+  padding: 7rem 8%;
+  border-top: 1px solid var(--divider);
+}
+
+.blurb:first-of-type {
+  border-top: none;
+}
+
+/* Increase horizontal space between columns */
+.blurb .columns {
+  display: flex;
+  align-items: center;
+  gap: 6rem;          /* ← strong separation */
+}
+
+/* Ensure columns take equal width */
+.blurb .column {
+  flex: 1;
+}
+
+/* Add internal padding so text doesn’t feel crowded */
+.blurb .column:first-child {
+  padding-right: 2rem;
+}
+
+.blurb .column:last-child {
+  padding-left: 2rem;
+}
+
+/* Image styling */
+.blurb img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Strong horizontal separation */
+.columns {
+  column-gap: 5rem !important;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--primary);
+}
+
+p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #334;
+}
+
+/* Blog Feature */
+.latest-post {
+  background-color: var(--light);
+  padding: 4rem;
+  border-radius: 14px;
+  margin-top: 3rem;
+}

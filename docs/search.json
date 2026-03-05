@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Nick Lewis",
     "section": "",
-    "text": "Nick Lewis\nGIS Analyst / Geologist ntompkinslew@gmail.com\nLinkedIn | GitHub"
+    "text": "Nick Lewis\nGIS Analyst / Geologist\nntompkinslew@gmail.com\nLinkedIn | GitHub"
   },
   {
     "objectID": "portfolio.html",
@@ -47,5 +47,19 @@
     "title": "GIS Portfolio",
     "section": "",
     "text": "Highlighting spatial analysis and geological mapping projects.\n\n\n\n\n\n\nAppalachian Knickpoint Analysis\n\n\n\n\n\n\n\nStream Network Modeling"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Nick Lewis",
+    "section": "About Me",
+    "text": "About Me\n\n\nWrite your about me text here. This should describe your background, research interests, and goals."
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Nick Lewis",
+    "section": "My Projects",
+    "text": "My Projects\n\n\n\n\nDescribe your major projects here. Add links to GitHub repos, papers, or interactive dashboards."
   }
 ]

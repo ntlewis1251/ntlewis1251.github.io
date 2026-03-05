@@ -1,24 +1,32 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "Nick Lewis"
+  title: "Your Name"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: resume.qmd
-        text: About Me
+        text: Resume
       - href: portfolio.qmd
-        text: GIS Projects
+        text: Portfolio
+      - href: blog.qmd
+        text: Blog
+
     right:
       - icon: github
-        href: https://github.com/ntlewis1251
+        href: https://github.com/yourusername
       - icon: linkedin
-        href: https://www.linkedin.com/in/nick-lewis-geo/
+        href: https://linkedin.com/in/yourusername
+
+  page-footer:
+    center: "© 2026 Your Name"
 
 format:
   html:
-    theme: default
+    theme: cosmo
     css: styles.css
+    toc: false
+    page-layout: full

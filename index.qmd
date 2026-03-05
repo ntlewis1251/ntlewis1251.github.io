@@ -1,14 +1,97 @@
+---
+title: ""
+page-layout: full
+
+listing:
+  id: latest-post
+  contents: posts
+  sort: "date desc"
+  max-items: 1
+  fields: [title, date, description]
+  type: default
+---
+
 ::: {.hero}
-::: {.hero-content}
 
-![](images/profile.png)
+::: {.hero-overlay}
 
-# Nick Lewis
+![](images/profile.jpg){.profile-pic}
 
-GIS Analyst /
-Geologist
-ntompkinslew@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/nick-lewis-geo/) | [GitHub](https://github.com/ntlewis1251)
+# Your Name
+
+Environmental Geologist  
+Groundwater | Site Assessment | Remediation Strategy
+
+Delivering technically defensible environmental solutions aligned with regulatory compliance and risk management objectives.
 
 :::
+:::
+
+---
+
+## Environmental Practice
+
+::: {.blurb}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Site Investigation & Subsurface Characterization
+
+I lead and support Phase I and Phase II Environmental Site Assessments, groundwater monitoring network design, and subsurface investigations across complex regulatory environments.
+:::
+
+::: {.column width="50%"}
+![](images/about1.jpg)
+:::
+
+::::
+
+:::
+
+---
+
+::: {.blurb}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/about2.jpg)
+:::
+
+::: {.column width="50%"}
+### Regulatory Strategy & Technical Reporting
+
+I prepare defensible technical documentation supporting state and federal compliance frameworks, ensuring clarity, precision, and data integrity.
+:::
+
+::::
+
+:::
+
+---
+
+::: {.blurb}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Environmental Data Analytics & GIS
+
+I integrate hydrogeologic data, spatial analysis, and visualization tools to support risk-based decision making and stakeholder communication.
+:::
+
+::: {.column width="50%"}
+![](images/about3.jpg)
+:::
+
+::::
+
+:::
+
+---
+
+## Latest Insight
+
+:::{#latest-post}
 :::

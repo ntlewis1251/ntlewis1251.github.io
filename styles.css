@@ -1,79 +1,96 @@
-/* Full-page hero background with fade to white */
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+:root {
+  --primary: #1f2d3a;
+  --accent: #2f5d50;
+  --light: #f4f6f7;
+  --divider: #e0e6ea;
 }
 
-#quarto-content {
-  padding-top: 0 !important;
+/* Wider layout */
+.page-columns {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-/* Remove Quarto page width restriction */
-.page-layout-article .page-content {
-  max-width: none;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0 !important;
-}
-
-/* Make hero span full viewport width */
+/* HERO */
 .hero {
-  min-height: 100vh;
-  width: 100vw;              /* force full viewport width */
-  margin-left: calc(-50vw + 50%);  /* break out of centered container */
-
-  background-image:
-    linear-gradient(to bottom, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%),
-    url("images/IMG_4007.JPG");
-
+  background-image: url("images/hero.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  /* padding: 60px; */
+  padding: 11rem 1rem;
+  text-align: center;
 }
 
-/* Layout: profile + text aligned */
-.hero-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-
-  background: rgba(255, 255, 255, 0.92);
-  color: black;
-
-  padding: 40px 50px;
-  border-radius: 20px;
-
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-
-  max-width: 600px;
+.hero-overlay {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 3rem 4rem;
+  border-radius: 18px;
+  display: inline-block;
+  max-width: 850px;
 }
 
-/* Profile image */
-.hero img {
-  width: 130px;
+.profile-pic {
+  width: 155px;
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
-/* Name styling */
-.hero h1 {
-  margin: 0;
-  font-size: 2.8rem;
-  font-weight: 700;
+/* BLURB SECTIONS */
+.blurb {
+  padding: 7rem 8%;
+  border-top: 1px solid var(--divider);
 }
 
-/* Smaller info text */
-.hero p {
-  margin: 4px 0;
-  font-size: 1.1rem;
+.blurb:first-of-type {
+  border-top: none;
 }
 
-/* Ensure fade area becomes fully white */
-main {
-  background: white;
+/* Increase horizontal space between columns */
+.blurb .columns {
+  display: flex;
+  align-items: center;
+  gap: 6rem;          /* ← strong separation */
+}
+
+/* Ensure columns take equal width */
+.blurb .column {
+  flex: 1;
+}
+
+/* Add internal padding so text doesn’t feel crowded */
+.blurb .column:first-child {
+  padding-right: 2rem;
+}
+
+.blurb .column:last-child {
+  padding-left: 2rem;
+}
+
+/* Image styling */
+.blurb img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Strong horizontal separation */
+.columns {
+  column-gap: 5rem !important;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--primary);
+}
+
+p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #334;
+}
+
+/* Blog Feature */
+.latest-post {
+  background-color: var(--light);
+  padding: 4rem;
+  border-radius: 14px;
+  margin-top: 3rem;
 }
